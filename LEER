@@ -1,0 +1,21 @@
+	Consideraciones:
+
+ El grupo decidio que la configuración inicial no sería definida
+en tiempo de compilación, sino que, para hacer al programa más
+interactivo, el usuario tenga la posibilidad de inicializar el mundo
+en cualquier momento (oprimiendo "I").
+
+ El tamaño del mundo debe ser modificado desde el código fuente;
+un tamaño optimo para pruebas puede ser 8x8, y si bien configuraciones
+mayores otorgan mayores libertades (al momento de la entrega, se
+definió en 40x40), es tambien cierto que el ingreso de las n*m células
+puede volverse algo tedioso.
+ Debido a esto, y a modo de ejemplo, se adjunta un archivo de texto,
+con los "comandos" adecuados para el programa (en su configuración de
+40x40) para introducir una configuración inicial definida por nuestro
+grupo, y que permite visualizar varias generaciones.
+ Modificar dicho archivo puede resultar más sencillo. Sin embargo,
+debe tenerse en cuenta que los "Enter" son tambien "comandos" para
+nuestro programa.
+
+./JUEGO_DE_LA_VIDA <in.txt
